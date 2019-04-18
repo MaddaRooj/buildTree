@@ -1,13 +1,15 @@
 console.log('Hello World!');
 
-const specs = {
+// Credits to Eliot Clarke for his help with this project.
+
+const tree = {
     char: ''
 }
 
 const grabData = () => {
-    specs.rows = document.querySelector('#rows').value;
-    specs.char = document.querySelector('#symbol').value;
-    treeFunction(specs);
+    tree.rows = document.querySelector('#rows').value;
+    tree.char = document.querySelector('#symbol').value;
+    treeFunction(tree);
 }
 
 
