@@ -3,12 +3,12 @@ console.log('Hello World!');
 // Credits to Eliot Clarke for his help with this project.
 
 const tree = {
-    char: ''
+    string: ''
 }
 
 const grabData = () => {
     tree.rows = document.querySelector('#rows').value;
-    tree.char = document.querySelector('#symbol').value;
+    tree.string = document.querySelector('#symbol').value;
     treeFunction(tree);
 }
 
